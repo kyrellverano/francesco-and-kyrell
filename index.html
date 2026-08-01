@@ -251,7 +251,15 @@
     font-style:italic;
     font-size: 18px;
     text-align:center;
-    padding: 24px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  .story-photo img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    display: block;
   }
   .story-text p{
     color: var(--ink-soft);
@@ -480,7 +488,15 @@
     color: rgba(69,59,61,0.35);
     font-size: 13px;
     text-align:center;
-    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  .g-item img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    display: block;
   }
   .g-item:nth-child(3n+1){ background: linear-gradient(145deg, var(--blush), var(--cream-deep)); }
   .g-item:nth-child(3n+2){ background: linear-gradient(145deg, var(--sage), var(--cream-deep)); }
