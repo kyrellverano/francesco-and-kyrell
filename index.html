@@ -94,21 +94,22 @@
   }
   .nav-links{
     display:flex;
-    gap: 28px;
+    gap: 20px;
     list-style:none;
   }
   .nav-links a{
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.1em;
     text-decoration:none;
     color: var(--ink-soft);
     transition: color .2s ease;
+    white-space: nowrap;
   }
   .nav-links a:hover{ color: var(--gold); }
   .nav-toggle{ display:none; background:none; border:none; font-size: 22px; cursor:pointer; color: var(--ink); }
 
-  @media (max-width: 780px){
+  @media (max-width: 960px){
     .nav-links{
       position:absolute;
       top: 64px; left:0; right:0;
