@@ -230,6 +230,12 @@
     color: var(--ink-soft);
     font-size: 16px;
   }
+  .it{
+    font-style: italic;
+    color: var(--ink-soft);
+    opacity: 0.85;
+  }
+  .section-head h2 .it, .hero h1 .it{ display:block; font-size: 0.5em; margin-top: 4px; }
 
   /* ---------- OUR STORY ---------- */
   .story{
@@ -537,14 +543,15 @@
     <div class="nav-mark">F &amp; K</div>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#story">Our Story</a></li>
-      <li><a href="#schedule">Schedule</a></li>
-      <li><a href="#venue">Venue</a></li>
-      <li><a href="#rsvp">RSVP</a></li>
-      <li><a href="#registry">Registry</a></li>
-      <li><a href="#travel">Travel</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#story" id="nav-story">Our Story · Storia</a></li>
+      <li><a href="#schedule" id="nav-schedule">Schedule · Programma</a></li>
+      <li><a href="#venue" id="nav-venue">Venue · Luogo</a></li>
+      <li><a href="#rsvp" id="nav-rsvp">RSVP</a></li>
+      <li><a href="#registry" id="nav-registry">Registry · Regali</a></li>
+      <li><a href="#travel" id="nav-travel">Travel · Viaggio</a></li>
+      <li><a href="#gallery" id="nav-gallery">Gallery · Galleria</a></li>
+      <li><a href="#share-photos" id="nav-share">Share Photos · Foto</a></li>
+      <li><a href="#faq" id="nav-faq">FAQ</a></li>
     </ul>
   </div>
 </nav>
@@ -553,10 +560,10 @@
 <header class="hero">
   <div class="hero-bg"></div>
   <div class="monogram">F&amp;K</div>
-  <p class="eyebrow">We're getting married</p>
+  <p class="eyebrow">We're getting married &nbsp;·&nbsp; <span class="it">Ci sposiamo</span></p>
   <h1>Francesco <span class="amp">&amp;</span> Kyrell</h1>
-  <p class="date-line">Tuesday, <strong>September 15</strong> &nbsp;·&nbsp; Italy</p>
-  <div class="scroll-cue"><span class="line"></span>Scroll</div>
+  <p class="date-line">Tuesday, <strong>September 15</strong> &nbsp;·&nbsp; Italy<br><span class="it">Martedì, 15 Settembre &nbsp;·&nbsp; Italia</span></p>
+  <div class="scroll-cue"><span class="line"></span>Scroll &nbsp;·&nbsp; <span class="it">Scorri</span></div>
 </header>
 
 <div class="vine">
@@ -574,8 +581,8 @@
 <section id="story">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">How it began</p>
-      <h2>Our Story</h2>
+      <p class="eyebrow">How it began &nbsp;·&nbsp; <span class="it">Come è iniziato</span></p>
+      <h2>Our Story <span class="it">La Nostra Storia</span></h2>
     </div>
     <div class="story">
       <div class="story-photo"><img src="images/us.jpg" alt="Francesco and Kyrell" style="width:100%; height:100%; object-fit:cover; border-radius:4px;"></div>
@@ -603,24 +610,24 @@
 <section id="schedule" style="background: var(--cream-deep);">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">The day of</p>
-      <h2>Schedule</h2>
-      <p>All events take place at the same venue unless noted — edit the times and details below.</p>
+      <p class="eyebrow">The Day of Yes &nbsp;·&nbsp; <span class="it">Il giorno del sì</span></p>
+      <h2>Schedule <span class="it">Programma</span></h2>
+      <p>All events take place at the same venue unless noted — edit the times and details below.<br><span class="it">Tutti gli eventi si svolgono nello stesso luogo salvo diversa indicazione.</span></p>
     </div>
     <div class="timeline">
       <div class="t-item">
         <div class="t-time">4:30 PM</div>
         <div class="t-dot"></div>
         <div class="t-content">
-          <h3>Guest Arrival</h3>
-          <p>Please arrive at Palazzo Trissino a little early to find your seat.</p>
+          <h3>Guest Arrival <span class="it" style="font-size:0.6em;">Arrivo Ospiti</span></h3>
+          <p>Please arrive at Palazzo Trissino a little early to find your seat.<br><span class="it">Vi preghiamo di arrivare a Palazzo Trissino con un po' di anticipo.</span></p>
         </div>
       </div>
       <div class="t-item">
         <div class="t-time">5:00 PM</div>
         <div class="t-dot"></div>
         <div class="t-content">
-          <h3>Ceremony</h3>
+          <h3>Ceremony <span class="it" style="font-size:0.6em;">Cerimonia</span></h3>
           <p>Palazzo Trissino, Corso Andrea Palladio 98, Vicenza.</p>
         </div>
       </div>
@@ -628,8 +635,8 @@
         <div class="t-time">TBA</div>
         <div class="t-dot"></div>
         <div class="t-content">
-          <h3>Reception &amp; Dinner</h3>
-          <p>Reception venue is still being booked — details coming soon, check back on this page!</p>
+          <h3>Reception &amp; Dinner <span class="it" style="font-size:0.6em;">Ricevimento e Cena</span></h3>
+          <p>Reception venue is still being booked — details coming soon, check back on this page!<br><span class="it">Il luogo del ricevimento è ancora da confermare — maggiori dettagli a breve!</span></p>
         </div>
       </div>
     </div>
@@ -640,15 +647,15 @@
 <section id="venue">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">Where to find us</p>
-      <h2>Venue &amp; Directions</h2>
+      <p class="eyebrow">Where to find us &nbsp;·&nbsp; <span class="it">Dove trovarci</span></p>
+      <h2>Venue &amp; Directions <span class="it">Luogo e Indicazioni</span></h2>
     </div>
     <div class="venue-card">
       <h3>Palazzo Trissino, Comune di Vicenza</h3>
       <p class="addr">Corso Andrea Palladio 98, 36100 Vicenza, Italy</p>
-      <p style="color:var(--ink-soft); font-size:14px; margin-bottom:26px;">Our ceremony will take place here at the historic town hall of Vicenza. Reception details to follow — check back soon!</p>
-      <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Palazzo+Trissino+Corso+Andrea+Palladio+98+Vicenza" target="_blank" rel="noopener">Get Directions</a>
-      <a class="btn btn-outline" href="https://www.comune.vicenza.it/Vivere-il-comune/Luoghi/Palazzo-Trissino" target="_blank" rel="noopener">Venue Website</a>
+      <p style="color:var(--ink-soft); font-size:14px; margin-bottom:26px;">Our ceremony will take place here at the historic town hall of Vicenza. Reception details to follow — check back soon!<br><span class="it">La nostra cerimonia si terrà qui, presso lo storico municipio di Vicenza. Dettagli sul ricevimento a breve!</span></p>
+      <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Palazzo+Trissino+Corso+Andrea+Palladio+98+Vicenza" target="_blank" rel="noopener">Get Directions · Indicazioni</a>
+      <a class="btn btn-outline" href="https://www.comune.vicenza.it/Vivere-il-comune/Luoghi/Palazzo-Trissino" target="_blank" rel="noopener">Venue Website · Sito</a>
     </div>
   </div>
 </section>
@@ -668,14 +675,14 @@
 <section id="rsvp" style="background: var(--cream-deep);">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">Kindly reply</p>
+      <p class="eyebrow">Kindly reply &nbsp;·&nbsp; <span class="it">Si prega di rispondere</span></p>
       <h2>RSVP</h2>
-      <p>Please respond by August 1 so we can finalize seating and catering.</p>
+      <p>Please respond by August 1 so we can finalize seating and catering.<br><span class="it">Vi preghiamo di rispondere entro il 1° agosto.</span></p>
     </div>
     <div class="rsvp-panel">
       <form action="https://formspree.io/f/mzdnjkeq" method="POST">
         <div class="field">
-          <label for="name">Full Name</label>
+          <label for="name">Full Name <span class="it">· Nome Completo</span></label>
           <input type="text" id="name" name="name" required>
         </div>
         <div class="field">
@@ -683,31 +690,29 @@
           <input type="email" id="email" name="email" required>
         </div>
         <div class="field">
-          <label>Will you be attending?</label>
+          <label>Will you be attending? <span class="it">· Parteciperai?</span></label>
           <div class="radio-group">
-            <label><input type="radio" name="attending" value="Joyfully accepts" required> Joyfully accepts</label>
-            <label><input type="radio" name="attending" value="Regretfully declines" required> Regretfully declines</label>
+            <label><input type="radio" name="attending" value="Joyfully accepts" required> Joyfully accepts <span class="it">· Con gioia accetto</span></label>
+            <label><input type="radio" name="attending" value="Regretfully declines" required> Regretfully declines <span class="it">· Con rammarico declino</span></label>
           </div>
         </div>
         <div class="field">
-          <label for="guests">Number of Guests (including yourself)</label>
+          <label for="guests">Number of Guests (including yourself) <span class="it">· Numero di Ospiti</span></label>
           <input type="number" id="guests" name="guests" min="1" max="6">
         </div>
-        <div class="field">
-          <label for="meal">Meal Preference</label>
-          <select id="meal" name="meal">
-            <option value="No preference">No preference</option>
-            <option value="Meat">Meat</option>
-            <option value="Fish">Fish</option>
-            <option value="Vegetarian">Vegetarian</option>
-            <option value="Vegan">Vegan</option>
-          </select>
+        <div class="field" id="guestNamesWrap" style="display:none;">
+          <label>Names of Additional Guests <span class="it">· Nomi degli Ospiti Aggiuntivi</span></label>
+          <div id="guestNamesFields"></div>
         </div>
         <div class="field">
-          <label for="message">Message for the Couple (optional)</label>
+          <label for="meal">Allergies or Food Restrictions <span class="it">· Allergie o Restrizioni Alimentari</span></label>
+          <textarea id="meal" name="meal" rows="2" placeholder="e.g. vegetarian, nut allergy, gluten-free... · es. vegetariano, allergia alle noci, senza glutine..."></textarea>
+        </div>
+        <div class="field">
+          <label for="message">Message for the Couple (optional) <span class="it">· Messaggio per gli Sposi</span></label>
           <textarea id="message" name="message" rows="4"></textarea>
         </div>
-        <button type="submit">Send RSVP</button>
+        <button type="submit">Send RSVP · Invia</button>
       </form>
       <p class="form-note">This form uses Formspree — see the setup steps to connect it to your email.</p>
     </div>
@@ -718,26 +723,26 @@
 <section id="registry">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">If you'd like to</p>
-      <h2>Registry</h2>
-      <p>Your presence is truly the gift — but if you'd like to give something, here are a few options.</p>
+      <p class="eyebrow">If you'd like to &nbsp;·&nbsp; <span class="it">Se lo desiderate</span></p>
+      <h2>Registry <span class="it">Lista Nozze</span></h2>
+      <p>Your presence is truly the gift — but if you'd like to give something, here are a few options.<br><span class="it">La vostra presenza è già il regalo più grande — ma se desiderate donare qualcosa, ecco alcune opzioni.</span></p>
     </div>
     <div class="cards3">
       <div class="card">
         <div class="icon">&#9749;</div>
-        <h3>Home Registry</h3>
-        <p>Add a link to your registry provider of choice.</p>
+        <h3>Home Registry <span class="it" style="font-size:0.6em; display:block;">Lista per la Casa</span></h3>
+        <p>Details to follow — under construction.<br><span class="it">Dettagli in arrivo — pagina in costruzione.</span></p>
         <a href="#" target="_blank" rel="noopener">View Registry &rarr;</a>
       </div>
       <div class="card">
         <div class="icon">&#9992;</div>
-        <h3>Honeymoon Fund</h3>
-        <p>Help send us off on our first trip as a married couple.</p>
+        <h3>Honeymoon Fund <span class="it" style="font-size:0.6em; display:block;">Fondo per la Luna di Miele</span></h3>
+        <p>Details to follow — under construction.<br><span class="it">Dettagli in arrivo — pagina in costruzione.</span></p>
         <a href="#" target="_blank" rel="noopener">Contribute &rarr;</a>
       </div>
       <div class="card">
         <div class="icon">&#128150;</div>
-        <h3>A Note Instead</h3>
+        <h3>A Note Instead <span class="it" style="font-size:0.6em; display:block;">Un Pensiero Scritto</span></h3>
         <p>Prefer to skip a gift? A card or well wishes means just as much.</p>
         <a href="#rsvp">Leave a Message &rarr;</a>
       </div>
@@ -760,19 +765,19 @@
 <section id="travel" style="background: var(--cream-deep);">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">Getting here</p>
-      <h2>Travel &amp; Accommodations</h2>
+      <p class="eyebrow">Getting here &nbsp;·&nbsp; <span class="it">Come arrivare</span></p>
+      <h2>Travel &amp; Accommodations <span class="it">Viaggio e Alloggio</span></h2>
     </div>
     <div class="cards2">
       <div class="card">
         <div class="icon">&#127976;</div>
-        <h3>Recommended Hotel</h3>
+        <h3>Recommended Hotel <span class="it" style="font-size:0.6em; display:block;">Hotel Consigliato</span></h3>
         <p>Add hotel name, distance from venue, and a booking link or group rate code here.</p>
         <a href="#" target="_blank" rel="noopener">Book a Room &rarr;</a>
       </div>
       <div class="card">
         <div class="icon">&#9992;</div>
-        <h3>Getting There</h3>
+        <h3>Getting There <span class="it" style="font-size:0.6em; display:block;">Come Arrivare</span></h3>
         <p>Nearest airport, train station, or driving directions — add specifics for out-of-town guests.</p>
         <a href="#venue">See Venue Details &rarr;</a>
       </div>
@@ -784,8 +789,8 @@
 <section id="gallery">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">A few favorites</p>
-      <h2>Gallery</h2>
+      <p class="eyebrow">A few favorites &nbsp;·&nbsp; <span class="it">Alcuni momenti preferiti</span></p>
+      <h2>Gallery <span class="it">Galleria</span></h2>
       <p>Replace each block below with your own photos.</p>
     </div>
     <div class="gallery">
@@ -812,32 +817,59 @@
   </svg>
 </div>
 
+<!-- SHARE PHOTOS -->
+<section id="share-photos" style="background: var(--cream-deep);">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">After the big day &nbsp;·&nbsp; <span class="it">Dopo il grande giorno</span></p>
+      <h2>Share Your Photos <span class="it">Condividi le Tue Foto</span></h2>
+      <p>Snapped something we might have missed? Add your photos and videos to our shared album — we'd love to see the day through your eyes.<br><span class="it">Avete scattato qualche foto speciale? Aggiungetela al nostro album condiviso — ci piacerebbe rivivere la giornata anche dai vostri occhi.</span></p>
+    </div>
+    <div class="venue-card" style="max-width:520px;">
+      <h3>Wedding Photo Album <span class="it" style="font-size:0.55em; display:block; margin-top:4px;">Album Fotografico del Matrimonio</span></h3>
+      <p class="addr" style="margin-bottom: 22px;">Tap below to view and add your photos — no app or account needed.<br><span class="it">Tocca qui sotto per vedere e aggiungere le tue foto — non serve app o account.</span></p>
+      <a class="btn btn-primary" href="#" target="_blank" rel="noopener">Upload Photos · Carica Foto</a>
+    </div>
+  </div>
+</section>
+
+<div class="vine">
+  <svg viewBox="0 0 220 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5 20 C 60 35, 160 5, 215 20" stroke="#B6924F" stroke-width="1"/>
+    <circle cx="40" cy="26" r="3" fill="#AEBFA0"/>
+    <circle cx="80" cy="13" r="3" fill="#CBBFDD"/>
+    <circle cx="110" cy="22" r="4" fill="#B6924F"/>
+    <circle cx="140" cy="12" r="3" fill="#E9C9C6"/>
+    <circle cx="180" cy="26" r="3" fill="#AEBFA0"/>
+  </svg>
+</div>
+
 <!-- FAQ -->
 <section id="faq" style="background: var(--cream-deep);">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">Good to know</p>
-      <h2>FAQ</h2>
+      <p class="eyebrow">Good to know &nbsp;·&nbsp; <span class="it">Cose da sapere</span></p>
+      <h2>FAQ <span class="it">Domande Frequenti</span></h2>
     </div>
     <div class="faq">
       <details open>
-        <summary>What should I wear?</summary>
+        <summary>What should I wear? <span class="it" style="font-size:0.7em;">· Come devo vestirmi?</span></summary>
         <p>Add your dress code here — e.g. cocktail attire, garden formal, or a color palette to avoid.</p>
       </details>
       <details>
-        <summary>Are children welcome?</summary>
+        <summary>Are children welcome? <span class="it" style="font-size:0.7em;">· I bambini sono benvenuti?</span></summary>
         <p>Let guests know your policy on kids at the ceremony and reception.</p>
       </details>
       <details>
-        <summary>Is the venue indoors or outdoors?</summary>
+        <summary>Is the venue indoors or outdoors? <span class="it" style="font-size:0.7em;">· Il luogo è al chiuso o all'aperto?</span></summary>
         <p>Add details about the setting and what guests should prepare for (e.g. weather, walking on grass).</p>
       </details>
       <details>
-        <summary>Will transportation be provided?</summary>
+        <summary>Will transportation be provided? <span class="it" style="font-size:0.7em;">· Sarà fornito un trasporto?</span></summary>
         <p>Note here if there's a shuttle between the hotel and venue, or if guests should arrange their own transport.</p>
       </details>
       <details>
-        <summary>Who do I contact with questions?</summary>
+        <summary>Who do I contact with questions? <span class="it" style="font-size:0.7em;">· Chi posso contattare per domande?</span></summary>
         <p>Add a phone number or email for a point of contact on the day.</p>
       </details>
     </div>
@@ -847,7 +879,7 @@
 <footer>
   <div class="monogram">F&amp;K</div>
   <div class="names">Francesco &amp; Kyrell</div>
-  <p class="fine">September 15 &nbsp;·&nbsp; Made with love</p>
+  <p class="fine">September 15 &nbsp;·&nbsp; Made with love <span class="it">· Con amore</span></p>
 </footer>
 
 <script>
@@ -858,6 +890,34 @@
     a.addEventListener('click', function(){
       document.getElementById('navLinks').classList.remove('open');
     });
+  });
+
+  // Show a name field for each additional guest beyond the first
+  var guestsInput = document.getElementById('guests');
+  var guestNamesWrap = document.getElementById('guestNamesWrap');
+  var guestNamesFields = document.getElementById('guestNamesFields');
+
+  guestsInput.addEventListener('input', function(){
+    var count = parseInt(guestsInput.value, 10) || 0;
+    var extraGuests = count - 1; // first guest is the person filling the form
+
+    guestNamesFields.innerHTML = '';
+
+    if (extraGuests > 0) {
+      guestNamesWrap.style.display = 'block';
+      for (var i = 1; i <= extraGuests; i++) {
+        var field = document.createElement('div');
+        field.style.marginBottom = '14px';
+        field.innerHTML =
+          '<input type="text" name="guest_name_' + i + '" ' +
+          'placeholder="Guest ' + (i + 1) + ' full name · Nome ospite ' + (i + 1) + '" ' +
+          'style="width:100%; border:none; border-bottom:1px solid rgba(69,59,61,0.2); ' +
+          'background:transparent; padding:10px 2px; font-family:var(--body); font-size:15px; color:var(--ink); outline:none;">';
+        guestNamesFields.appendChild(field);
+      }
+    } else {
+      guestNamesWrap.style.display = 'none';
+    }
   });
 </script>
 
